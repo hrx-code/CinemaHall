@@ -117,6 +117,10 @@ p.text{
     cursor:pointer;
     transform:scale(1.2);
 }
+.hall .seat.selected:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
 .hall .seat.occupied:hover{
     cursor:default;
     transform:scale(1);
